@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 25b5cbc850a10cc6a725f341125f0d4755813936 --show <jasonspinola@gmail.com> 1705671364 -0500	commit (initial): First Commit
+25b5cbc850a10cc6a725f341125f0d4755813936 bc318051eb335552938247998eda1fde5b390ab1 --show <jasonspinola@gmail.com> 1705672423 -0500	commit: corrected spelling of $FUNCTION
+bc318051eb335552938247998eda1fde5b390ab1 055a52817bcf2c3c0ef33b681feee0b7007fe080 --show <jasonspinola@gmail.com> 1705672619 -0500	commit: made switch for $FUNCTION inline
+055a52817bcf2c3c0ef33b681feee0b7007fe080 45540908ddfe955e31f507a82f134018b57aa52f --show <jasonspinola@gmail.com> 1707162403 -0500	commit: works now with all vcenters, inputs and sends output to a log file and csv for data
+45540908ddfe955e31f507a82f134018b57aa52f bb60600c716e2be57b8f9881a19ff5df30e2cb7f --show <jasonspinola@gmail.com> 1707229306 -0500	commit: changed MENU to VIMENU and errorLog.txt to eventLog.txt
+bb60600c716e2be57b8f9881a19ff5df30e2cb7f c3402df5b88486f33189d07fe1663660f6bb1ddc --show <jasonspinola@gmail.com> 1707240872 -0500	commit: added clear content, removed spaces b4 commas and added input files name to output file for tracking
+c3402df5b88486f33189d07fe1663660f6bb1ddc 2974008869d546917e8562d3fb21d7fe54a76679 --show <jasonspinola@gmail.com> 1707242821 -0500	commit: added Data file name to Log to match output. Added procesing complete message to log. remvoed blank Lines
+2974008869d546917e8562d3fb21d7fe54a76679 a06251e45fabb544816adf64934acb45f9e90671 --show <jasonspinola@gmail.com> 1707245297 -0500	commit: added option 7 Disconnect-VIServer
+a06251e45fabb544816adf64934acb45f9e90671 c926f256aa194a8bb950c605eeb231aa83fe60cd --show <jasonspinola@gmail.com> 1707245879 -0500	commit: moved call to clear screen. added check at disconnect-vi if actually connected to vcenter. if not msg and go back to menu.
+c926f256aa194a8bb950c605eeb231aa83fe60cd 4282366ccc5b6077f236b4291beba8c34d116b09 --show <jasonspinola@gmail.com> 1707336998 -0500	commit: works, but needs to be tweaked to fileter out the 15 days
+4282366ccc5b6077f236b4291beba8c34d116b09 d2c56373c2cb2c52df7bf6e581e03958ef1e325f --show <jasonspinola@gmail.com> 1708459897 -0500	commit: added updated SDDC links after links were changed on Sunday 02-17-2024.
+d2c56373c2cb2c52df7bf6e581e03958ef1e325f f4cb6b3697969a68a1b84732e3b6491401962f93 --show <jasonspinola@gmail.com> 1713969669 -0400	commit: added script to find the port groups on both sides of the vlan on-prem and cloud side. needs fininishing touches
+f4cb6b3697969a68a1b84732e3b6491401962f93 87edb4493b2fe1df4987bd667eaa0f56c2a249c0 --show <jasonspinola@gmail.com> 1713969707 -0400	commit: updated file
+87edb4493b2fe1df4987bd667eaa0f56c2a249c0 2737becb416cb21ce1be1217d1d1f97696cf87c3 --show <jasonspinola@gmail.com> 1714059725 -0400	commit: updates
+2737becb416cb21ce1be1217d1d1f97696cf87c3 05efc8dd46ad436639809ba7a4d9aa32e308a521 --show <jasonspinola@gmail.com> 1714563735 -0400	commit: added more vcenter options, rm'ed logging, added the vlan checks
+05efc8dd46ad436639809ba7a4d9aa32e308a521 a292b65981782e28ca3ff33018111896158e128b --show <jasonspinola@gmail.com> 1714592359 -0400	commit: description. keys, ph + gcl added, sshkeys updated + more
+a292b65981782e28ca3ff33018111896158e128b bb0c6b1b8007a970146e3496d8a68c69e0f127fe --show <jasonspinola@gmail.com> 1714612375 -0400	commit: updated sshkey and sshkeypub to double qoutes.
+bb0c6b1b8007a970146e3496d8a68c69e0f127fe 0446cfb20f32055ccc5cb4f90b704119e492c3cb --show <jasonspinola@gmail.com> 1714621404 -0400	commit: updated to have more messages. and changed $global:counter to add .count not .length
+0446cfb20f32055ccc5cb4f90b704119e492c3cb 879fa3e0e2becee1ee1b80f9230eb3d42af61499 --show <jasonspinola@gmail.com> 1714622096 -0400	commit: added debuging and fixed tyop in if for newlocation to be VMC not VMX
+879fa3e0e2becee1ee1b80f9230eb3d42af61499 22e8910b49c121eaf8e71330ee1b58b3b8655f66 --show <jasonspinola@gmail.com> 1714735908 -0400	commit: removed copy-hosts function that was not needed and jus did the loops in the main area.
+22e8910b49c121eaf8e71330ee1b58b3b8655f66 df61136bab3f54140bd176970dbfec441cd7719e --show <jasonspinola@gmail.com> 1721932652 -0400	commit: $pushCMD added in place of running the individual calls for the ccs_hosts file pushes
+df61136bab3f54140bd176970dbfec441cd7719e 2b67df64406109d48f7162318c9b874390af269a --show <jasonspinola@gmail.com> 1735845833 -0500	commit: updates
+2b67df64406109d48f7162318c9b874390af269a a44654039958f50576b45c64416850ad08647c25 --show <jasonspinola@gmail.com> 1747309215 -0400	commit: updated vCenter connection options in VIMenu function to include additional GovCloud and OCI regions
