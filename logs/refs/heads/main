@@ -21,3 +21,4 @@ bb0c6b1b8007a970146e3496d8a68c69e0f127fe 0446cfb20f32055ccc5cb4f90b704119e492c3c
 22e8910b49c121eaf8e71330ee1b58b3b8655f66 df61136bab3f54140bd176970dbfec441cd7719e --show <jasonspinola@gmail.com> 1721932652 -0400	commit: $pushCMD added in place of running the individual calls for the ccs_hosts file pushes
 df61136bab3f54140bd176970dbfec441cd7719e 2b67df64406109d48f7162318c9b874390af269a --show <jasonspinola@gmail.com> 1735845833 -0500	commit: updates
 2b67df64406109d48f7162318c9b874390af269a a44654039958f50576b45c64416850ad08647c25 --show <jasonspinola@gmail.com> 1747309215 -0400	commit: updated vCenter connection options in VIMenu function to include additional GovCloud and OCI regions
+a44654039958f50576b45c64416850ad08647c25 b30562b4e29e55b922d3a03f641d8b81dbe3700e --show <jasonspinola@gmail.com> 1747314940 -0400	commit: updates
